@@ -1,7 +1,7 @@
 ---
 layout: posts
-permalink: /data-wrangling/
-title: "Data Wrangling projects"
+permalink: /mapping/
+title: "Hawaii Agricultural Land Use"
 author_profile: true
 header:
   image: "/images/fort point.png"
