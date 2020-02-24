@@ -1,1 +1,72 @@
+---
+title: "Mapping Projects"
+date: 2020-02-20
+tags: [data wrangling, data science, messy data]
+header:
+  image: "/images/cityglobe.jpg"
+excerpt: "Data Wrangling, Data Science, Messy Data"
+mathjax: "true"
+---
+
+# Hawaii Agriculture Land Use
+
+Here's an image:
+<img src="{{ site.url }}{{ site.baseurl }}/images/ag.jpg" alt="linearly separable data">
+
+Over the past 35 years, Hawaii has undergone major shifts in their agricultural land use. This shift was focused on moving away from plantation sugar and pineapple production and opening doors for a diversity in crops. Overall, crop land use has decreased from 830 acres to 151,830 acres. Active pasture use has also declined from 1.1 million acres to 760,000 acres. Pasture land use still acccounts for 83 percent of agricultural land use in the state, with 73% of that on the Hawaii Island[1].
+
+The below static and interactive map will allow you to visualize and scale in on agricultural land use and supporting watersheds on the Hawaiian Islands. The data used for this analysis was pulled from Hawaii Statewide GIS Program[2]. 
+
+### H3 Heading
+
+Here's some basic text.
+
+And here's some *italics*
+
+Here's some **bold** text.
+
+What about a [link](https://github.com/dataoptimal)?
+
+Here's a bulleted list:
+* First item
++ Second item
+- Third item
+
+Here's a numbered list:
+1. First
+2. Second
+3. Third
+
+Python code block:
+```python
+    import numpy as np
+
+    def test_function(x, y):
+      z = np.sum(x,y)
+      return z
+```
+
+R code block:
+```r
+library(tidyverse)
+df <- read_csv("some_file.csv")
+head(df)
+```
+
+Here's some inline code `x+y`.
+
+Here's an image:
+<img src="{{ site.url }}{{ site.baseurl }}/images/hawaii_static.png">
+
+
+<img src="{{ file:///Users/allisonbailey/Desktop/Winter%202020%20Courses/Adv%20Data/Homework%202/hawaii_bailey/hawaii_map_ag.html }}{{ file:///Users/allisonbailey/Desktop/Winter%202020%20Courses/Adv%20Data/Homework%202/hawaii_bailey/hawaii_map_ag.html}}">
+
+Here's another image using Kramdown:
+![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
+
+Here's some math:
+
+$$z=x+y$$
+
+You can also put it inline $$z=x+y$$
 
