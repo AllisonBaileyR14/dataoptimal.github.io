@@ -237,5 +237,35 @@ ggplot(data = mack_date, aes(sample = weight)) +
 
 # Based on the results of our qq plot, the data is NOT normally distributed.
 ```
+Now we will visually compare Pacific giant salamander weights between the three channel classifications. 
 
+Here is the code to run the graph above:
+```r
 
+channel_weight_plot <- ggplot() +
+  geom_beeswarm(data = weight_channel, 
+                aes(x = unittype, 
+                    y = weight,
+                    ),
+                size = 3,
+                alpha = 0.6,
+                pch = 16,
+                color = "gray70") +
+  scale_x_discrete(labels = c("C", "P", "SC")) +
+  geom_point(data = weight_summary, aes(x = unittype, y = mean_weight), 
+             color = "firebrick",
+             size = 4) +
+  geom_errorbar(data = weight_summary, 
+                aes(x = unittype, 
+                    ymin = mean_weight - sd_weight,
+                    ymax = mean_weight + sd_weight),
+                color = "firebrick",
+                width = 0.1) +
+  labs(title = "Mean Pacific Giant Salamander Weights (P, C, and SC Channels)",
+       x = "channel") +
+  theme_light()
+
+channel_weight_plot
+
+```
+Mean Pacific Giant Salamander weights did *not* differ significantly between Pool (9.29 +/- 1.56) and Cascades (7.52 +/- 0.43) nor did it differ significantly between the Cascades and the Side Channel (5.68 +/- 0.65).  However, there *is* a significant difference between Salamander weights when comparing individuals found in the Side Channel to those found in Pool channel classifications (one-way ANOVA with post-hoc Tukey's HSD, F(2) = 4.2156, SC-P *p adj* < 0.05). However, after running the difference against a Cohen's d test and receiving a value of approximately 0.352 it can be concluded that the difference in mean Salamander weight between Pool and Side Channel classifications is small.
