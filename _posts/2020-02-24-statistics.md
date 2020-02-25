@@ -181,7 +181,7 @@ section_ttest
 # A resulting p-value under 0.05 means that variances are not equal and than further parametric tests such as ANOVA are not suited. We should use chi-squared.
 ```
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/sal_table2.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/weight_sal.png" alt="linearly separable data">
 
 
 ### H3 Heading
