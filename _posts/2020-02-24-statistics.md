@@ -75,8 +75,41 @@ kable(sal_summary, col.names = c("Channel Classification",
   kable_styling(bootstrap_options = "striped") %>%
   add_header_above(c("Pacific Salamander Counts: 2017" = 3))
 ```
+The table below displays Pacific Giant Salamander counts and proportions by channel classification [pool (P), cascades (C), or side-channel (SC)] in 2017.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/sal_table2.png" alt="linearly separable data">
+
+Here is the code to replicate the table above:
+```{r echo=FALSE, include=TRUE, warning=FALSE}
+
+sal_adorn <- sal_count_table %>% 
+  janitor::adorn_percentages(denominator = "row") %>% 
+  adorn_pct_formatting(digits = 0) %>% 
+  adorn_ns(position = "front")
+
+kable(sal_adorn, caption = "***Figure 4.** The table below displays Pacific Giant Salamander counts and proportions by channel classification [pool (P), cascades (C), or side-channel (SC)] in 2017.*") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover")) %>% 
+  kable_styling(bootstrap_options = "striped") %>%
+  add_header_above(c("Pacific Salamander Counts and Proportions: 2017" = 4))
+```
+2017 Pacific Giant Salamander counts from the table above were used to determine if there is a significant effect of forest condition on where salamanders are found within the channel based on the channel classifications P, C, and SC. A Chi-Square test for independence revealed that there is *not* a significant association between forest condition and the number of salamanders counted within specific channel classifications $$($\chi$^2^(`r my_channel_chi$parameter`)) = `r my_channel_chi$statistic`$$ and $$($p-value$(`r my_channel_chi$parameter`)) = `r my_channel_chi$p.value`$$.
+
+Here is the code to replicate the chi-square test above:
+```r
+chi_counts <- sal_count_table %>% 
+  dplyr::select(-section)
+
+chi_counts
 
 
+# Run a chi-square test for independence using `chisq.test()`:
+
+my_channel_chi <- chisq.test(chi_counts)
+
+my_channel_chi
+
+summary(my_channel_chi)
+```
 
 ### H3 Heading
 
