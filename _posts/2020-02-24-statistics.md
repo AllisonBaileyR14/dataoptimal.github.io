@@ -10,7 +10,7 @@ mathjax: "true"
 
 # Pacific Giant Salamander
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/sal_map.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/sal_map.png">
 
 # **Data & Methods**
 Pacific Giant Salamander population size and demographics have been examined in Mack Creek, Oregon since 1993, as part of a larger [aquatic vertebrate population study](https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-and&identifier=4027&revision=12). [1] Areas of focus (reaches) include a section of clear cut forest (CC) and a 500 year-old conifer old growth forest (OG), located upstream of the CC forest. [1] Each reach is approximately 150 m in length, and blocked every 50 m by nets. [1] Samples are taken every 50 m along each reach using 2-pass electrofishing; length and weight data is recorded for all captured aquatic vertebrates. [1] The total number of Pacific Giant Salamanders counted at Mack Creek was visualized to compare abundance in CC forest to that in OG forest. Included is a table displaying Pacific Giant Salamander counts and proportions by channel classification for both OG and CC forests in the year 2017. Based on these values, a Chi-Square test for independence was used to determine if forest condition has a significant effect on the location within the channel at which Pacific Giant Salamanders are found. Additionally, to determine if there is a significant difference in mean weights between the two forest sections, mean Pacific Giant Salamander weights were compared across forest sections using a Welch’s two-sample t-test (alpha = 0.05). Beeswarm plots and quantile-quantile plots were then used to visualize mean weight distributions across each forest section, revealing an abnormal distribution of means. Knowing this, it would have been more accurate to visualize this data using Box-and-whisker plots, and to perform non-parametric statistical analyses to examine sample medians. This report presents analysis and figures exclusively prepared using .R software version 3.6.1. 
@@ -18,7 +18,7 @@ Pacific Giant Salamander population size and demographics have been examined in 
 # **Analysis**
 Annual counts of Pacific Giant Salamander were visually compared in OG and CC sections of Mack Creek (1993-2016). Visualizations display the changes in annual counts for each section of Mack Creek over time. From 1993 to approximately 2014, Pacific Giant Salamander counts in OG forest sections of Mack Creek generally exceed counts obtained in CC forest sections. From 2014 to 2016, this trend is reversed. General population growth and decay patterns are similar between both sites, displaying an overall increase in population from 1995 to approximately 2002. This is followed by an overall decline until 2006, a more drastic decline around 2014, and growth from 2014 to 2016. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/total_sal.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/total_sal.png">
 
 Here is the code to replicate the graph above:
 ```r
@@ -50,7 +50,7 @@ sal_total_plot
 
 Below is a table of 2017 salamander counts by channel classification (pool, cascades and side-channel) in old growth (OG) and clear cut (CC) sections of Mack Creek.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/sal_table.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/sal_table.png">
 
 Here is the code to replicate the graph above:
 ```r 
@@ -75,7 +75,7 @@ kable(sal_summary, col.names = c("Channel Classification",
 ```
 The table below displays Pacific Giant Salamander counts and proportions by channel classification [pool (P), cascades (C), or side-channel (SC)] in 2017.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/sal_table2.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/sal_table2.png">
 
 Here is the code to replicate the table above:
 ```{r echo=FALSE, include=TRUE, warning=FALSE}
@@ -108,7 +108,7 @@ my_channel_chi
 
 summary(my_channel_chi)
 ```
-<img src="{{ site.url }}{{ site.baseurl }}/images/sal_stats.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/sal_stats.png">
 
 A Welch two-sample t-test was used to determine if there is a significant difference in Pacific Giant Salamander mean weights between individuals found in CC or OG forest sections in 2017. Analysis shows that there is *no* significant difference in mean weight of Pacific Giant Salamanders (t(683.21) = 1.4859, p = 0.1378) located in CC forests (7.77587 ± 9.9 g [mean ± sd],  n = 368) and OG forests (6.701818 ± 9.035g [mean ± sd], n = 320).
 
@@ -179,11 +179,11 @@ section_ttest
 # A resulting p-value under 0.05 means that variances are not equal and than further parametric tests such as ANOVA are not suited. We should use chi-squared.
 ```
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/weight_sal.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/weight_sal.png">
 
 The graph below visualizes Pacific Giant Salamander weights for individuals found in CC and OG forests. The bar heights represent mean Salamander weight for each section. The red error bar indicates how individual observations are dispersed around the mean. It appears that measurements from the OG forest section are slightly more precise than those from the CC forest section.  
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/fire_sal.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/fire_sal.png">
 
 Here is the code to run your own jitter plot with statistics bar:
 ```r
@@ -220,7 +220,7 @@ sal_weight_plot
 
 We need to see if the weight in Salamanders is normally distrubted between the two sections. To do this. We will use a qq plot.  Based on the results of our qq plot below, the data is NOT normally distributed.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dist_sal.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/dist_sal.png">
 
 Here is the code to run a qq-plot to analyze distribution:
 ```r
