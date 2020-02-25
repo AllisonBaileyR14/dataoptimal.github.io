@@ -54,7 +54,7 @@ Below is a table of 2017 salamander counts by channel classification (pool, casc
 <img src="{{ site.url }}{{ site.baseurl }}/images/sal_table.png" alt="linearly separable data">
 
 Here is the code to replicate the graph above:
-```{r echo=FALSE, include=FALSE, warning=FALSE}
+```r 
 # Results B: Table of 2017 salamander counts by channel classification (pool, cascades and side-channel) in old growth (OG) and clear cut (CC) sections of Mack Creek. Using only Pacific giant salamander observations from 2017, create a finalized table showing the counts and proportions of salamanders observed in different channel classifications (pool, cascade, or side-channel) within Mack Creek for the two sections (OG and CC). Add a table caption above the table. Note: We’re only interested in Pacific giant salamanders observed in the creek, so you should exclude salamanders observed in isolated pools (IP) disconnected from the channel. 
 
 sal_summary <- mack_date %>%
@@ -115,7 +115,7 @@ A Welch two-sample t-test was used to determine if there is a significant differ
 
 Here is the code to run the t-test and built out stats table:
 
-```{r, include=FALSE, warning=FALSE}
+```r
 # Results D. Compare weights of Pacific giant salamanders in clear cut and old growth forest sections of the creek in 2017. Only considering creek section (OG or CC) as a variable (not further factoring by channel classification), answer: Is there a significant difference in mean weights for Pacific giant salamanders observed in the two forest sections (clear cut and old growth) in 2017? 
 
 #Welch two sample ttest for comparing difference in means of clear cut and old growth sections.
@@ -187,7 +187,7 @@ The graph below visualizes Pacific Giant Salamander weights for individuals foun
 <img src="{{ site.url }}{{ site.baseurl }}/images/fire_sal.png" alt="linearly separable data">
 
 Here is the code to run your own jitter plot with statistics bar:
-```{r echo=FALSE, include=TRUE, warning=FALSE, out.width = "100%", fig.cap="***Figure 5.** Observed Pacific Giant Salamander weights in relation to mean Pacific Giant Salamander weights in OG and CC forests sections.*"}
+```r
 # Results C continued.
 
 sal_weight <- mack_date %>%
@@ -224,7 +224,7 @@ We need to see if the weight in Salamanders is normally distrubted between the t
 <img src="{{ site.url }}{{ site.baseurl }}/images/dist_sal.png" alt="linearly separable data">
 
 Here is the code to run a qq-plot to analyze distribution:
-```{r echo=FALSE, include=TRUE, warning=FALSE, out.width = "100%", fig.cap="***Figure 6.** This QQ-Plot visualizes the skewed distribution in Pacific Giant Salamander weights in both OG and CC forest sections.*"}
+```r
 # We need to see if the weight in Salamanders is normally distrubted between the two sections. To do this. We will use a qq plot.
 
 ggplot(data = mack_date, aes(sample = weight)) +
