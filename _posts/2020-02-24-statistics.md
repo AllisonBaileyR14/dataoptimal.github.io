@@ -3,7 +3,7 @@ title: "Statistical Analysis"
 date: 2020-02-20
 tags: [data wrangling, data science, messy data]
 header:
-  image: "/images/cityglobe.jpg"
+  image: "/images/us_map.jpg"
 excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
 ---
