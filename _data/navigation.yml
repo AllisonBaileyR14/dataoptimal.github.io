@@ -2,10 +2,12 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Time-Series Projects"
+  - title: "Time-Series"
     url: /time-series/
-  - title: "Mapping Projects"
+  - title: "Mapping"
     url: /mapping/
+  - title: "Statistics"
+    url: /statistics/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
