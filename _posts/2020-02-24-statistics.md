@@ -272,6 +272,8 @@ channel_weight_plot
 ```
 Mean Pacific Giant Salamander weights did *not* differ significantly between Pool (9.29 +/- 1.56) and Cascades (7.52 +/- 0.43) nor did it differ significantly between the Cascades and the Side Channel (5.68 +/- 0.65).  However, there *is* a significant difference between Salamander weights when comparing individuals found in the Side Channel to those found in Pool channel classifications (one-way ANOVA with post-hoc Tukey's HSD, F(2) = 4.2156, SC-P *p adj* < 0.05). However, after running the difference against a Cohen's d test and receiving a value of approximately 0.352 it can be concluded that the difference in mean Salamander weight between Pool and Side Channel classifications is small.
 
+Here is a [link](https://github.com/AllisonBaileyR14/Pacific-Salamanders)to the repository to fork and clone for yourself! 
+
 #### **References**
 
 [1]Andrews Forest LTER Site and S. V. Gregory, “Aquatic Vertebrate Population Study in Mack Creek, Andrews Experimental Forest, 1987 to present.” Environmental Data Initiative, 2016.
