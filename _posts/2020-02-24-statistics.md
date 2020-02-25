@@ -1,5 +1,5 @@
 ---
-title: "Mapping Projects"
+title: "Statistical Analysis"
 date: 2020-02-20
 tags: [data wrangling, data science, messy data]
 header:
