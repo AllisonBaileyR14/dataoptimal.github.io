@@ -10,7 +10,6 @@ mathjax: "true"
 
 # Pacific Giant Salamander
 
-Here's an image:
 <img src="{{ site.url }}{{ site.baseurl }}/images/sal_map.png" alt="linearly separable data">
 
 # **Data & Methods**
@@ -182,6 +181,43 @@ section_ttest
 ```
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/weight_sal.png" alt="linearly separable data">
+
+The graph below visualizes Pacific Giant Salamander weights for individuals found in CC and OG forests. The bar heights represent mean Salamander weight for each section. The red error bar indicates how individual observations are dispersed around the mean. It appears that measurements from the OG forest section are slightly more precise than those from the CC forest section.  
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/fire_sal.png" alt="linearly separable data">
+
+Here is the code to run your own jitter plot with statistics bar:
+```{r echo=FALSE, include=TRUE, warning=FALSE, out.width = "100%", fig.cap="***Figure 5.** Observed Pacific Giant Salamander weights in relation to mean Pacific Giant Salamander weights in OG and CC forests sections.*"}
+# Results C continued.
+
+sal_weight <- mack_date %>%
+  dplyr::select(year, section, weight) %>%
+  filter(year == 2017)
+
+sal_weight_plot <- ggplot() +
+  geom_beeswarm(data = sal_weight, 
+                aes(x = section, 
+                    y = weight),
+                size = 3,
+                alpha = 0.6,
+                pch = 16,
+                color = "gray70") +
+  labs(title = "Mean Weights of Pacific Giant Salamanders (CC & OG Forests)") +
+  scale_x_discrete(labels = c("Clear Cut", "Old Growth")) +
+  geom_point(data = sal_stats, aes(x = section, y = mean_weight), 
+             color = "firebrick",
+             size = 4) +
+  geom_errorbar(data = sal_stats, 
+                aes(x = section, 
+                    ymin = mean_weight - sd_weight,
+                    ymax = mean_weight + sd_weight),
+                color = "firebrick",
+                width = 0.1) +
+  theme_light()
+
+sal_weight_plot
+
+```
 
 
 ### H3 Heading
