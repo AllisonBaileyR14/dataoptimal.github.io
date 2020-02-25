@@ -219,57 +219,24 @@ sal_weight_plot
 
 ```
 
+We need to see if the weight in Salamanders is normally distrubted between the two sections. To do this. We will use a qq plot.  Based on the results of our qq plot below, the data is NOT normally distributed.
 
-### H3 Heading
+<img src="{{ site.url }}{{ site.baseurl }}/images/dist_sal.png" alt="linearly separable data">
 
-Here's some basic text.
+Here is the code to run a qq-plot to analyze distribution:
+```{r echo=FALSE, include=TRUE, warning=FALSE, out.width = "100%", fig.cap="***Figure 6.** This QQ-Plot visualizes the skewed distribution in Pacific Giant Salamander weights in both OG and CC forest sections.*"}
+# We need to see if the weight in Salamanders is normally distrubted between the two sections. To do this. We will use a qq plot.
 
-And here's some *italics*
+ggplot(data = mack_date, aes(sample = weight)) +
+  geom_qq(aes(color = section),
+                 alpha = 0.5,
+                 show.legend = FALSE
+          ) +
+  labs(title = "Distribution of Pacific Giant Salamander Weights (OG and CC forests)") +
+  facet_wrap(~section, scales = "free") +
+  scale_color_viridis(discrete = TRUE, option = "cividis")
 
-Here's some **bold** text.
-
-What about a [link](https://github.com/dataoptimal)?
-
-Here's a bulleted list:
-* First item
-+ Second item
-- Third item
-
-Here's a numbered list:
-1. First
-2. Second
-3. Third
-
-Python code block:
-```python
-    import numpy as np
-
-    def test_function(x, y):
-      z = np.sum(x,y)
-      return z
+# Based on the results of our qq plot, the data is NOT normally distributed.
 ```
 
-R code block:
-```r
-library(tidyverse)
-df <- read_csv("some_file.csv")
-head(df)
-```
-
-Here's some inline code `x+y`.
-
-Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/hawaii_static.png">
-
-
-<img src="{{ file:///Users/allisonbailey/Desktop/Winter%202020%20Courses/Adv%20Data/Homework%202/hawaii_bailey/hawaii_map_ag.html }}{{ file:///Users/allisonbailey/Desktop/Winter%202020%20Courses/Adv%20Data/Homework%202/hawaii_bailey/hawaii_map_ag.html}}">
-
-Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
-
-Here's some math:
-
-$$z=x+y$$
-
-You can also put it inline $$z=x+y$$
 
