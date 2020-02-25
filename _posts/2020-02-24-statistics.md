@@ -110,6 +110,79 @@ my_channel_chi
 
 summary(my_channel_chi)
 ```
+<img src="{{ site.url }}{{ site.baseurl }}/images/sal_stats.png" alt="linearly separable data">
+
+A Welch two-sample t-test was used to determine if there is a significant difference in Pacific Giant Salamander mean weights between individuals found in CC or OG forest sections in 2017. Analysis shows that there is *no* significant difference in mean weight of Pacific Giant Salamanders (t(683.21) = 1.4859, p = 0.1378) located in CC forests (7.77587 ± 9.9 g [mean ± sd],  n = 368) and OG forests (6.701818 ± 9.035g [mean ± sd], n = 320).
+
+Here is the code to run the t-test and built out stats table:
+
+```{r, include=FALSE, warning=FALSE}
+# Results D. Compare weights of Pacific giant salamanders in clear cut and old growth forest sections of the creek in 2017. Only considering creek section (OG or CC) as a variable (not further factoring by channel classification), answer: Is there a significant difference in mean weights for Pacific giant salamanders observed in the two forest sections (clear cut and old growth) in 2017? 
+
+#Welch two sample ttest for comparing difference in means of clear cut and old growth sections.
+
+
+#**Null hypothesis**: There is no significant difference in weight mean between old growth and clear cut sections (or, old growth and clear cut weight means not significantly different)
+
+#**Alternative hypothesis**: There IS a significant difference in weight mean between old growth and clear cut (or, old growth and clear cut are significantly differenct)
+
+
+sal_stats <- mack_date %>% 
+  filter(year == 2017) %>%
+  group_by(section) %>% 
+  summarize(
+    mean_weight = mean(weight, na.rm = TRUE),
+    sd_weight = sd(weight, na.rm = TRUE),
+    sample_size = n(),
+    se_weight = sd(weight, na.rm = TRUE) / sqrt(n()),
+    var_weight = var(weight, na.rm = TRUE)
+  )
+
+sal_stats
+
+kable(sal_stats, col.names = c("Section",
+                           "Mean Weight",
+                           "SD Weight", "Sample Size",
+                           "SE Weight",
+                           "Var Weight"),
+        caption = 
+            "Figure 5. The table below includes the means, standard deviations, and sample weights of Pacific Giant Salamanders foung in CC or OG forest sections in 2017.") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover")) %>%
+  add_header_above(c("Pacific Salamander Statistics: 2017" = 6))
+
+
+# lRun a two-sample T-Test to see if there is a significant difference in the means of clear cut vs. old growth sections. 
+
+# Question: Are clear cut salamander significantly different in weight than old growth slamanders(using a significance level of 0.05)?
+
+sec_welch <- mack_date %>%
+  dplyr::select(section, year, weight, unittype) %>%
+  filter(unittype == "P" | unittype == "C" | unittype == "SC") %>%
+  filter(year == 2017) %>%
+  dplyr::select(-year) %>%
+  group_by(weight, section)
+
+cc_sample <- sec_welch %>%
+  filter(section == "CC") %>%
+  pull(weight)
+
+t.test(cc_sample)
+
+og_sample <- sec_welch %>%
+  filter(section == "OG") %>%
+  pull(weight)
+
+t.test(og_sample)
+
+section_ttest <- t.test(cc_sample,og_sample)
+
+section_ttest
+
+# A resulting p-value under 0.05 means that variances are not equal and than further parametric tests such as ANOVA are not suited. We should use chi-squared.
+```
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/sal_table2.png" alt="linearly separable data">
+
 
 ### H3 Heading
 
