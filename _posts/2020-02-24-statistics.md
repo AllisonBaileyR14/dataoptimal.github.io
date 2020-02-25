@@ -239,6 +239,8 @@ ggplot(data = mack_date, aes(sample = weight)) +
 ```
 Now we will visually compare Pacific giant salamander weights between the three channel classifications. 
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/fire2_sal.png">
+
 Here is the code to run the graph above:
 ```r
 
