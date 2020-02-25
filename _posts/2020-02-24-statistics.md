@@ -78,7 +78,7 @@ The table below displays Pacific Giant Salamander counts and proportions by chan
 <img src="{{ site.url }}{{ site.baseurl }}/images/sal_table2.png">
 
 Here is the code to replicate the table above:
-```{r echo=FALSE, include=TRUE, warning=FALSE}
+```r
 
 sal_adorn <- sal_count_table %>% 
   janitor::adorn_percentages(denominator = "row") %>% 
