@@ -21,8 +21,7 @@ Annual counts of Pacific Giant Salamander were visually compared in OG and CC se
 <img src="{{ site.url }}{{ site.baseurl }}/images/total_sal.png" alt="linearly separable data">
 
 Here is the code to replicate the graph above:
-```{r echo=FALSE, include=TRUE, warning=FALSE, out.width = "100%", fig.cap="***Figure 3.** Comparison of annual Pacific Giant Salamander counts in OG and CC sections of Mack Creek (1993-2016).*"}
-
+```r
 # Results A: Visually compare annual salamander counts in old growth (OG) and clear cut (CC) sections of Mack Creek. For all years when Pacific giant salamander observations were recorded in the study, find the total annual Pacific giant salamander counts for the two sections of Mack Creek. Create a finalized graph to show the changes in annual counts for each section over time, add a figure caption, and briefly describe the trends in text. 
 
 sal_abundance <- mack_date %>%
