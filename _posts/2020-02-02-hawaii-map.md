@@ -7,7 +7,6 @@ header:
   image: "/images/geo_map2.png"
 excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
-output: html_document
 ---
 
 ```{r setup, include=FALSE}
