@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/speaker.jpg"
+  image: "/images/books.jpg"
 ---
 
 I'm a student who excels at data wrangling, exploratory analysis, and data visualizations.
