@@ -18,7 +18,65 @@ Pacific Giant Salamander population size and demographics have been examined in 
 
 # **Analysis**
 Annual counts of Pacific Giant Salamander were visually compared in OG and CC sections of Mack Creek (1993-2016). Visualizations display the changes in annual counts for each section of Mack Creek over time. From 1993 to approximately 2014, Pacific Giant Salamander counts in OG forest sections of Mack Creek generally exceed counts obtained in CC forest sections. From 2014 to 2016, this trend is reversed. General population growth and decay patterns are similar between both sites, displaying an overall increase in population from 1995 to approximately 2002. This is followed by an overall decline until 2006, a more drastic decline around 2014, and growth from 2014 to 2016. 
- 
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/total_sal.png" alt="linearly separable data">
+
+Here is the code to replicate the graph above:
+```{r echo=FALSE, include=TRUE, warning=FALSE, out.width = "100%", fig.cap="***Figure 3.** Comparison of annual Pacific Giant Salamander counts in OG and CC sections of Mack Creek (1993-2016).*"}
+
+# Results A: Visually compare annual salamander counts in old growth (OG) and clear cut (CC) sections of Mack Creek. For all years when Pacific giant salamander observations were recorded in the study, find the total annual Pacific giant salamander counts for the two sections of Mack Creek. Create a finalized graph to show the changes in annual counts for each section over time, add a figure caption, and briefly describe the trends in text. 
+
+sal_abundance <- mack_date %>%
+    dplyr::select(year, section, species) %>%
+  group_by(year, section, species) %>%
+  tally()
+
+sal_total <- sal_abundance %>%
+  group_by(section, species, year) %>%
+  summarise(
+    total = sum(n)
+  )
+
+sal_total_plot <- ggplot(sal_total, aes(x=year, y=total)) +
+    geom_line(aes(color=section), size=1.2 ) +
+    theme_light() +
+    theme(
+      legend.position="right") +
+    labs(title = "Total Salamanders Counted at Mack Creek") +
+   scale_color_viridis(discrete=TRUE, option="cividis") +
+  labs(x = "year",
+       y = "salamander count")
+
+sal_total_plot
+```
+
+Below is a table of 2017 salamander counts by channel classification (pool, cascades and side-channel) in old growth (OG) and clear cut (CC) sections of Mack Creek.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/sal_table.png" alt="linearly separable data">
+
+Here is the code to replicate the graph above:
+```{r echo=FALSE, include=FALSE, warning=FALSE}
+# Results B: Table of 2017 salamander counts by channel classification (pool, cascades and side-channel) in old growth (OG) and clear cut (CC) sections of Mack Creek. Using only Pacific giant salamander observations from 2017, create a finalized table showing the counts and proportions of salamanders observed in different channel classifications (pool, cascade, or side-channel) within Mack Creek for the two sections (OG and CC). Add a table caption above the table. Note: We’re only interested in Pacific giant salamanders observed in the creek, so you should exclude salamanders observed in isolated pools (IP) disconnected from the channel. 
+
+sal_summary <- mack_date %>%
+  dplyr::select(unittype, section, year, species) %>%
+  filter(unittype == "P" | unittype == "C" | unittype == "SC") %>%
+  filter(year == 2017) %>%
+  dplyr::select(-year) %>%
+  group_by(unittype, section) %>%
+  tally()
+
+
+kable(sal_summary, col.names = c("Channel Classification",
+                           "Section",
+                           "Total Count"),
+      caption = "***Figure 2.** Table of 2017 salamander counts by channel classification (pool, cascades and side-channel) in old growth (OG) and clear cut (CC) sections of Mack Creek*") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover")) %>% 
+  kable_styling(bootstrap_options = "striped") %>%
+  add_header_above(c("Pacific Salamander Counts: 2017" = 3))
+```
+
+
 
 ### H3 Heading
 
