@@ -90,7 +90,7 @@ kable(sal_adorn, caption = "***Figure 4.** The table below displays Pacific Gian
   kable_styling(bootstrap_options = "striped") %>%
   add_header_above(c("Pacific Salamander Counts and Proportions: 2017" = 4))
 ```
-2017 Pacific Giant Salamander counts from the table above were used to determine if there is a significant effect of forest condition on where salamanders are found within the channel based on the channel classifications P, C, and SC. A Chi-Square test for independence revealed that there is *not* a significant association between forest condition and the number of salamanders counted within specific channel classifications $$($\chi$^2^(`r my_channel_chi$parameter`)) = `r my_channel_chi$statistic`$$ and $$($p-value$(`r my_channel_chi$parameter`)) = `r my_channel_chi$p.value`$$.
+2017 Pacific Giant Salamander counts from the table above were used to determine if there is a significant effect of forest condition on where salamanders are found within the channel based on the channel classifications P, C, and SC. A Chi-Square test for independence revealed that there is *not* a significant association between forest condition and the number of salamanders counted within specific channel classifications ($\chi$^2^(`r my_channel_chi$parameter`)) = `r my_channel_chi$statistic` and ($p-value$(`r my_channel_chi$parameter`)) = `r my_channel_chi$p.value`.
 
 Here is the code to replicate the chi-square test above:
 ```r
