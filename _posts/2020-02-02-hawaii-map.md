@@ -1,8 +1,17 @@
 ---
 title: "Hawaii Land Use"
 author: "Allison Bailey"
-date: "2020-02-25"
+<<<<<<< HEAD:_posts/hawaii_map.Rmd
+date: "2020-02-02"
 output: html_document
+=======
+date: "2020-02-02"
+tags: [data wrangling, data science, messy data]
+header:
+  image: "/images/geo_map2.png"
+excerpt: "Data Wrangling, Data Science, Messy Data"
+mathjax: "true"
+>>>>>>> ee4343ce183341d8526e4f47cc6e1de69dcb666b:_posts/2020-02-02-hawaii-map.md
 ---
 
 ```{r setup, include=FALSE}
