@@ -1,8 +1,0 @@
-
-<div id="disqus_thread"><iframe id="dsq-app53" name="dsq-app53" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="https://disqus.com/embed/comments/?base=default&amp;f=rpubs&amp;t_i=pub-579571&amp;t_u=https%3A%2F%2Frpubs.com%2Fallisonbaileyr14%2F579571&amp;t_d=RPubs%20-%20Hawaii%20Land%20Use&amp;t_t=RPubs%20-%20Hawaii%20Land%20Use&amp;s_o=default#version=0ba02a5f282a11b5f8f45de79e029f97" horizontalscrolling="no" verticalscrolling="no" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 1033px !important;"></iframe><iframe id="indicator-north" name="indicator-north" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" style="width: 1px !important; border: none !important; overflow: hidden !important; top: 0px !important; min-width: 1px !important; max-width: 1px !important; position: fixed !important; z-index: 2147483646 !important; height: 29px !important; min-height: 29px !important; max-height: 29px !important; display: none !important;"></iframe><iframe id="indicator-south" name="indicator-south" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" style="width: 1px !important; border: none !important; overflow: hidden !important; bottom: 0px !important; min-width: 1px !important; max-width: 1px !important; position: fixed !important; z-index: 2147483646 !important; height: 29px !important; min-height: 29px !important; max-height: 29px !important; display: none !important;"></iframe></div>
-</div>
-
-</div>
-
-
-<iframe style="display: none;"></iframe></body></html>
