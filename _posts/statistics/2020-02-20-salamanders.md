@@ -1,5 +1,5 @@
 ---
-title: "Statistical Analysis"
+title: "Pacific Salamander Analysis"
 date: 2020-02-20
 tags: [data wrangling, data science, messy data]
 header:
