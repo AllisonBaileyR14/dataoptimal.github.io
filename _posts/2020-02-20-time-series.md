@@ -3,61 +3,44 @@ title: "Time Series Projects"
 date: 2020-02-20
 tags: [data wrangling, data science, messy data]
 header:
-  image: "/images/perceptron/percept.jpg"
+  image: "/images/geo_map2.png"
 excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
 ---
 
-# Adult Steelhead Salmon Passage Through The Bonneville Dam
+## Mapping Projects
 
-## H2 Heading
 
-### H3 Heading
+<table width="100%" class="map_links">
+  <tr>
+    <td>
+      <h3>Salmon Passage Project</h3>
+  <a href="https://allisonbaileyr14.github.io/website4/salmon/"><img src="{{ site.url }}{{ site.baseurl }}/images/hawaii_thumb.jpg"></a>
+  <p>Hawaii agriculture land use mapping project </p></td>
+    <td>
+      <h3>Heading</h3>
+  <a href="https://allisonbaileyr14.github.io/website4/hawaii/"><img src="{{ site.url }}{{ site.baseurl }}/images/ag.jpg"></a>
+  <p>A caption goes here to describe where this link goes</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>Heading</h3>
+  <a href="https://allisonbaileyr14.github.io/website4/hawaii/"><img src="{{ site.url }}{{ site.baseurl }}/images/ag.jpg"></a>
+  <p>A caption goes here to describe where this link goes</p></td>
+    <td>
+      <h3>Heading</h3>
+  <a href="https://allisonbaileyr14.github.io/website4/hawaii/"><img src="{{ site.url }}{{ site.baseurl }}/images/ag.jpg"></a>
+  <p>A caption goes here to describe where this link goes</p>
+    </td>
+  </tr>
+  </table>
+  
+      
+  
 
-Here's some basic text.
+  
+  
 
-And here's some *italics*
 
-Here's some **bold** text.
 
-What about a [link](https://github.com/dataoptimal)?
-
-Here's a bulleted list:
-* First item
-+ Second item
-- Third item
-
-Here's a numbered list:
-1. First
-2. Second
-3. Third
-
-Python code block:
-```python
-    import numpy as np
-
-    def test_function(x, y):
-      z = np.sum(x,y)
-      return z
-```
-
-R code block:
-```r
-library(tidyverse)
-df <- read_csv("some_file.csv")
-head(df)
-```
-
-Here's some inline code `x+y`.
-
-Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="linearly separable data">
-
-Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
-
-Here's some math:
-
-$$z=x+y$$
-
-You can also put it inline $$z=x+y$$
