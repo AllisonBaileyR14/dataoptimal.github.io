@@ -8,13 +8,10 @@ excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
 ---
 
-
 ## Methane Oxidation in Landfills
 
-The United States generates an average of 250 million tons of organic municipal waste (MSW) per year that is distributed to the nearest proximate landfill of the country's 3000 active landfills (EPA, 2018). Ensuing bovine manure and rice paddy agricultural practices, landfills are the third-largest generators of arguably the most significant greenhouse gas (GHG) affecting climate change; methane (CH4) (Abushammala, 2014).  The production of methane in landfills is exacerbated by pivotal shifts in key variables such as an increase in temperature, pH levels of the soil, and precipitation that contribute to perturbations in the biogeochemical phases (Malgorzata, 2006). Under optimal conditions, the process of methane oxidation can be concurrent with methanogenesis, resulting in methane emission mitigation. Due to the sensitivity of the methane oxidation process, researchers and leading experts are developing new technology to exploit the capabilities of methane oxidation to reduce methane emissions from landfills. 
-
-Here is the video:
-
 <iframe src="https://player.vimeo.com/video/394663151" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+The United States generates an average of 250 million tons of organic municipal waste (MSW) per year that is distributed to the nearest proximate landfill of the country's 3000 active landfills (EPA, 2018). Ensuing bovine manure and rice paddy agricultural practices, landfills are the third-largest generators of arguably the most significant greenhouse gas (GHG) affecting climate change; methane (CH4) (Abushammala, 2014).  The production of methane in landfills is exacerbated by pivotal shifts in key variables such as an increase in temperature, pH levels of the soil, and precipitation that contribute to perturbations in the biogeochemical phases (Malgorzata, 2006). Under optimal conditions, the process of methane oxidation can be concurrent with methanogenesis, resulting in methane emission mitigation. Due to the sensitivity of the methane oxidation process, researchers and leading experts are developing new technology to exploit the capabilities of methane oxidation to reduce methane emissions from landfills. 
 
 For further information on methane oxidation in landfills, please see my research site at this [link](https://allisonbaileyr14.github.io/website4/methane/)
