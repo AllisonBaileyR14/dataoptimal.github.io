@@ -10,8 +10,8 @@ main:
     url: /statistics/
   - title: "Research"
     url: /research/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Media"
+    url: /media/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
