@@ -14,20 +14,20 @@ mathjax: "true"
 <table width="100%" class="map_links">
   <tr>
     <td>
-      <h3>Heading</h3>
+      <h3>Pacific Salamanders Project</h3>
   <a href="https://allisonbaileyr14.github.io/website4/salamanders/"><img src="{{ site.url }}{{ site.baseurl }}/images/salamander.jpg"></a>
-  <p>A caption goes here to describe where this link goes</p></td>
+  <p>Analysis of Pacific Salamanders habitat</p></td>
     <td>
-      <h3>Heading</h3>
+      <h3>Environmental Survey Project</h3>
   <a href="https://allisonbaileyr14.github.io/website4/correlations/"><img src="{{ site.url }}{{ site.baseurl }}/images/windmill.jpg"></a>
-  <p>A caption goes here to describe where this link goes</p>
+  <p>A PCA on socio-economic factors affecting public support for land conservation</p>
     </td>
   </tr>
   <tr>
     <td>
-      <h3>Heading</h3>
-  <a href="https://allisonbaileyr14.github.io/website4/hawaii/"><img src="{{ site.url }}{{ site.baseurl }}/images/ag.jpg"></a>
-  <p>A caption goes here to describe where this link goes</p></td>
+      <h3>Country Growth Rate Project</h3>
+  <a href="https://allisonbaileyr14.github.io/website4/ecology/"><img src="{{ site.url }}{{ site.baseurl }}/images/globe_build.jpg"></a>
+  <p>Analysis on socio-economic factors that affect global growth rates</p></td>
     <td>
       <h3>Heading</h3>
   <a href="https://allisonbaileyr14.github.io/website4/hawaii/"><img src="{{ site.url }}{{ site.baseurl }}/images/ag.jpg"></a>
