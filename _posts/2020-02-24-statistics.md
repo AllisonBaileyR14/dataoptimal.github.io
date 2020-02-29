@@ -13,7 +13,7 @@ mathjax: "true"
 
 <table width="100%" class="map_links">
   <tr>
-    <td width="50%">
+    <td>
       <h3>Pacific Salamanders Project</h3>
   <a href="https://allisonbaileyr14.github.io/website4/salamanders/"><img src="{{ site.url }}{{ site.baseurl }}/images/salamander.jpg"></a>
   <p>Analysis of Pacific Salamanders habitat</p></td>
