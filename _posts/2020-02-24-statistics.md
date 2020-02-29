@@ -26,7 +26,7 @@ mathjax: "true"
   <tr>
     <td>
       <h3>Country Growth Rate Project</h3>
-  <a href="https://allisonbaileyr14.github.io/website4/ecology/"><img src="{{ site.url }}{{ site.baseurl }}/images/globe_build.jpg"></a>
+  <a href="https://allisonbaileyr14.github.io/website4/ecology/"><img src="{{ site.url }}{{ site.baseurl }}/images/globe_build2.jpg"></a>
   <p>Analysis on socio-economic factors that affect global growth rates</p></td>
     <td>
       <h3>Heading</h3>
