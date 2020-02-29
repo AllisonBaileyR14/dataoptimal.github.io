@@ -19,6 +19,8 @@ A Principal component analysis (PCA) was conducted to evaluate the variables in 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/survey_cor.png">
 
+As shown in the PCA results, education level and income were the biggest factor in Land Conservation support or opposition. 
+
 Here is the R Markdown document to how these maps were produced:
 <iframe width="100%" height="500px" src="../images/survey_analysis.html" class="cool"></iframe>
 
