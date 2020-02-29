@@ -19,10 +19,60 @@ A Principal component analysis (PCA) was conducted to evaluate the variables in 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/survey_cor.png">
 
-Here is the R Markdown where this project was created:
+Here is the R Markdown document to how these maps were produced:
+<iframe width="100%" height="500px" src="../images/survey_analysis.html" class="cool"></iframe>
 
+Here is the reproducible code:
+```r
+# Attach libraries to be able to conduct Q. 2 on the assignment (PCA)
+library(tidyverse)
+library(janitor)
+library(naniar)
+library(VIM)
+library(skimr)
+library(ggfortify)
+library(here)
 
-Here is a [link](https://github.com/AllisonBaileyR14/Pacific-Salamanders)to the repository to fork and clone for yourself! 
+# Read in the data.
+land_conservation <- read_csv("DeGoliaSurvey_PSETXLS.csv")
+
+land_clean <- land_conservation %>%
+  clean_names() %>%
+  select(-captrade, -renewables)
+  
+# Now let's do PCA. Use the 'prcomp()' function
+# land_pca <- prcomp(land_clean, scale = TRUE) gives us error!
+
+# We have errors.  Let's explore missingness!
+
+summary(land_clean)
+# There is 1 NA in the income column
+# double check with gg_miss_var
+gg_miss_var(land_clean)
+
+# Let's drop that one NA using drop_NA()
+
+land_ready <- land_clean %>%
+  drop_na()
+
+# Now let's try our PCA again....
+land_pca <- prcomp(land_ready, scale = TRUE)
+
+# Now we are ready to plot our PCA..
+
+land_biplot <- autoplot(land_pca,
+                      colour = NA,
+                      loadings.label = TRUE,
+                      loadings.label.size = 3,
+                      loadings.label.colour = "black",
+                      loading.label.repel = TRUE) +
+  ggtitle("Land Conservation: Support Level Correlations") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+land_biplot
+
+```
+
 
 
 
