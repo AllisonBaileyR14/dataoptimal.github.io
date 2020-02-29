@@ -19,7 +19,7 @@ mathjax: "true"
   <p>A caption goes here to describe where this link goes</p></td>
     <td>
       <h3>Heading</h3>
-  <a href="https://allisonbaileyr14.github.io/website4/correlations/"><img src="{{ site.url }}{{ site.baseurl }}/images/windmill.png"></a>
+  <a href="https://allisonbaileyr14.github.io/website4/correlations/"><img src="{{ site.url }}{{ site.baseurl }}/images/windmill.jpg"></a>
   <p>A caption goes here to describe where this link goes</p>
     </td>
   </tr>
