@@ -8,8 +8,8 @@ main:
     url: /mapping/
   - title: "Statistics"
     url: /statistics/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Research"
+    url: /research/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
