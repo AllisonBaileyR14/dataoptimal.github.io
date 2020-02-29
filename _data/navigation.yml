@@ -10,9 +10,9 @@ main:
     url: /statistics/
   - title: "Research"
     url: /research/
+  - title: "Lab Work"
+    url: /labwork/
   - title: "Media"
     url: /media/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
