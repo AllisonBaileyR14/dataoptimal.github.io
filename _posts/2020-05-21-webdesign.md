@@ -8,7 +8,7 @@ excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
 ---
 
-## Research Projects
+## Web Projects
 
 
 <table width="100%" class="map_links">
