@@ -22,5 +22,6 @@ mathjax: "true"
   <a href="https://allisonbaileyr14.github.io/website/webdesignprojects/"><img src="{{ site.url }}{{ site.baseurl }}/images/web.jpg"></a>
   <p>Web Development and Design</p>
     </td>
+  </tr>
   </table>
   
