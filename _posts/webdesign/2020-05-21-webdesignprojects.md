@@ -10,4 +10,4 @@ mathjax: "true"
 
 ## Columbia River Ranch
 
-<iframe src="https://www.columbiariverranch-inc.com/" width="1000px" height="600px" title="Columbia River Ranch"></iframe>
+<iframe src="https://www.columbiariverranch-inc.com/" width="1500px" height="900px" title="Columbia River Ranch"></iframe>
