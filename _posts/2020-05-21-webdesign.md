@@ -19,7 +19,7 @@ mathjax: "true"
   <p>App Development and Design</p></td>
     <td  width="50%" valign="top">
       <h3>Web Design</h3>
-  <a href="https://allisonbaileyr14.github.io/website/webdesign/"><img src="{{ site.url }}{{ site.baseurl }}/images/windmill.jpg"></a>
+  <a href="https://allisonbaileyr14.github.io/website/webdesignprojects/"><img src="{{ site.url }}{{ site.baseurl }}/images/windmill.jpg"></a>
   <p>Principle Component Analysis</p>
     </td>
   </tr>
