@@ -18,8 +18,8 @@ mathjax: "true"
   <a href="https://allisonbaileyr14.github.io/website/apps/"><img src="{{ site.url }}{{ site.baseurl }}/images/landfill.jpg"></a>
   <p>App Development and Design</p></td>
     <td  width="50%" valign="top">
-      <h3>Environmental Survey Project</h3>
-  <a href="https://allisonbaileyr14.github.io/website/correlations/"><img src="{{ site.url }}{{ site.baseurl }}/images/windmill.jpg"></a>
+      <h3>Web Design</h3>
+  <a href="https://allisonbaileyr14.github.io/website/webdesign/"><img src="{{ site.url }}{{ site.baseurl }}/images/windmill.jpg"></a>
   <p>Principle Component Analysis</p>
     </td>
   </tr>
