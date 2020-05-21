@@ -10,10 +10,4 @@ mathjax: "true"
 
 ## Photography Gallery
 
-<div id="cp_widget_6491fda7-f977-43bc-ba57-4bac5e5d471c">...</div><script type="text/javascript">
-var cpo = []; cpo["_object"] ="cp_widget_6491fda7-f977-43bc-ba57-4bac5e5d471c"; cpo["_fid"] = "A8AAHouFHfzx";
-var _cpmp = _cpmp || []; _cpmp.push(cpo);
-(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
-cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
-var c = document.getElementsByTagName("script")[0];
-c.parentNode.insertBefore(cp, c); })(); </script>
+<div id="cp_widget_06b41d0c-b7fb-49bd-ae2d-9990a4c4523f">...</div><script type="text/javascript"> var cpo = []; cpo["_object"] ="cp_widget_06b41d0c-b7fb-49bd-ae2d-9990a4c4523f"; cpo["_fid"] = "A8AAHouFHfzx"; var _cpmp = _cpmp || []; _cpmp.push(cpo); (function() { var cp = document.createElement("script"); cp.type = "text/javascript"; cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js"; var c = document.getElementsByTagName("script")[0]; c.parentNode.insertBefore(cp, c); })(); </script>
