@@ -28,11 +28,6 @@ mathjax: "true"
       <h3>Country Growth Rate Project</h3>
   <a href="https://allisonbaileyr14.github.io/website/ecology/"><img src="{{ site.url }}{{ site.baseurl }}/images/globe_build2.jpg"></a>
   <p>Multiple Linear Regression Analysis</p></td>
-    <td  width="50%" valign="top">
-      <h3>Heading</h3>
-  <a href="https://allisonbaileyr14.github.io/website/hawaii/"><img src="{{ site.url }}{{ site.baseurl }}/images/ag.jpg"></a>
-  <p>A caption goes here to describe where this link goes</p>
-    </td>
   </tr>
   </table>
   
