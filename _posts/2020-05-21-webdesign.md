@@ -1,7 +1,7 @@
 ---
 title: "Web Design"
 date: 2020-05-21
-tags: [apps, web design, ux/ui]
+tags: [apps, web design, ux-ui]
 header:
   image: "/images/research.jpg"
 excerpt: "Data Wrangling, Data Science, Messy Data"
