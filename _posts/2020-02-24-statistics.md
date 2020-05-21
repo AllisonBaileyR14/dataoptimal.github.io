@@ -3,7 +3,7 @@ title: "Statistical Analysis Projects"
 date: 2020-02-20
 tags: [data wrangling, data science, messy data]
 header:
-  image: "/images/stats.jpg"
+  image: "/images/stats.jpeg"
 excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
 ---
