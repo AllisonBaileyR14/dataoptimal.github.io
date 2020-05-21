@@ -15,19 +15,12 @@ mathjax: "true"
   <tr>
     <td width="50%" valign="top">
       <h3>Shiny App Project</h3>
-  <a href="https://allisonbaileyr14.github.io/website/apps/"><img src="{{ site.url }}{{ site.baseurl }}/images/landfill.jpg"></a>
+  <a href="https://allisonbaileyr14.github.io/website/apps/"><img src="{{ site.url }}{{ site.baseurl }}/images/code.jpg"></a>
   <p>App Development and Design</p></td>
     <td  width="50%" valign="top">
       <h3>Web Design</h3>
-  <a href="https://allisonbaileyr14.github.io/website/webdesignprojects/"><img src="{{ site.url }}{{ site.baseurl }}/images/windmill.jpg"></a>
-  <p>Principle Component Analysis</p>
+  <a href="https://allisonbaileyr14.github.io/website/webdesignprojects/"><img src="{{ site.url }}{{ site.baseurl }}/images/web.jpg"></a>
+  <p>Web Development and Design</p>
     </td>
-  </tr>
-  <tr>
-    <td  width="50%" valign="top">
-      <h3>Country Growth Rate Project</h3>
-  <a href="https://allisonbaileyr14.github.io/website/ecology/"><img src="{{ site.url }}{{ site.baseurl }}/images/globe_build2.jpg"></a>
-  <p>Multiple Linear Regression Analysis</p></td>
-  </tr>
   </table>
   
