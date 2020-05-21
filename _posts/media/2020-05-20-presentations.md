@@ -10,4 +10,10 @@ mathjax: "true"
 
 ## Presentation Gallery
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/1c2uzXhwngQ2xz" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/secret/1c2uzXhwngQ2xz" title="Bio quest briefing" target="_blank">Bio quest briefing</a> </strong> from <strong><a href="https://www.slideshare.net/AllisonBailey18" target="_blank">AllisonBailey18</a></strong> </div>
+<div id="cp_widget_b2ab4839-66e3-4f89-9963-1ee8cfa6052a">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_b2ab4839-66e3-4f89-9963-1ee8cfa6052a"; cpo["_fid"] = "AQIAEoe1I7EA";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script>
