@@ -1,5 +1,5 @@
 ---
-title: "Media Projects"
+title: "Media and Website Projects"
 date: 2020-02-20
 tags: [data wrangling, data science, messy data]
 header:
