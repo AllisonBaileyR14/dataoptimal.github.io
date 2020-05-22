@@ -1,5 +1,5 @@
 ---
-title: "Statistical Analysis Projects"
+title: "Research and Statistical Analysis Projects"
 date: 2020-02-20
 tags: [data wrangling, data science, messy data]
 header:
@@ -7,8 +7,6 @@ header:
 excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
 ---
-
-## Statistics Projects
 
 
 <table width="100%" class="map_links">
