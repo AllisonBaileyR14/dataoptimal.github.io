@@ -10,9 +10,7 @@ main:
     url: /researchandstatistics/
   - title: "Lab Work"
     url: /labwork/
-  - title: "Media"
-    url: /media/
-  - title: "Web Design"
-    url: /webdesign/
+  - title: "Media and Websites"
+    url: /mediaandwebsites/
   # - title: "Sitemap"
   #   url: /sitemap/
