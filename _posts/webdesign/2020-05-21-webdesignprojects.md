@@ -13,4 +13,4 @@ Below is a website I created to generate an alternative revenue stream through s
 
 Please visit the website at this [link](https://www.columbiariverranch-inc.com/)
 
-<img width="100%" height="auto" src="{{ site.url }}{{ site.baseurl }}/images/ccr.png">
+<img width="150%" height="auto" src="{{ site.url }}{{ site.baseurl }}/images/ccr.png">
