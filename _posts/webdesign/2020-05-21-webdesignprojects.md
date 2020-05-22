@@ -11,4 +11,6 @@ mathjax: "true"
 ## Columbia River Ranch
 Below is a website I created to generate an alternative revenue stream through selling products direct to consumers for Columbia River Ranch Inc.  All content, design, and sales structure were created by me utilizing a Wix platform.
 
+Please visit the website at this [link](https://www.columbiariverranch-inc.com/)
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/ccr.png">
