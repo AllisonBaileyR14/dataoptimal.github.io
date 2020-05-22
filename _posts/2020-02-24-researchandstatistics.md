@@ -24,7 +24,7 @@ mathjax: "true"
   <tr>
     <td  width="50%" valign="top">
       <h3>Country Growth Rate Project</h3>
-  <a href="https://allisonbaileyr14.github.io/website/ecology/"><img src="{{ site.url }}{{ site.baseurl }}/images/globe_build2.jpg"></a>
+  <a href="https://allisonbaileyr14.github.io/website/ecology/"><img src="{{ site.url }}{{ site.baseurl }}/images/globe_buildfinal.jpg"></a>
   <p>Multiple Linear Regression Analysis</p></td>
      <td width="50%" valign="top">
       <h3>Methane Oxidation Project</h3>
@@ -38,7 +38,7 @@ mathjax: "true"
   <p>Salmon passage through the Bonneville Dam project </p></td>
        <td width="50%" valign="top">
       <h3>Hawaii Land Use</h3>
-  <a href="https://allisonbaileyr14.github.io/website/hawaii/"><img src="{{ site.url }}{{ site.baseurl }}/images/hawaii_thumb.jpg"></a>
+  <a href="https://allisonbaileyr14.github.io/website/hawaii/"><img src="{{ site.url }}{{ site.baseurl }}/images/hawaii2.jpg"></a>
   <p>Hawaii agriculture land use mapping project </p></td>
   </tr>
   </table>
