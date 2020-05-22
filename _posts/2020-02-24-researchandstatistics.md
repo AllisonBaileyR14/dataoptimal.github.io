@@ -40,6 +40,12 @@ mathjax: "true"
       <h3>Hawaii Land Use</h3>
   <a href="https://allisonbaileyr14.github.io/website/hawaii/"><img src="{{ site.url }}{{ site.baseurl }}/images/hawaii2.jpg"></a>
   <p>Interactive Mapping </p></td>
+       </tr>
+    <tr>
+    <td width="50%" valign="top">
+      <h3>Arsenic: BioGeoChemical Review</h3>
+  <a href="https://allisonbaileyr14.github.io/website/salmon/"><img src="{{ site.url }}{{ site.baseurl }}/images/arsenic.jpg"></a>
+  <p>Research Paper </p></td>
   </tr>
   </table>
   
