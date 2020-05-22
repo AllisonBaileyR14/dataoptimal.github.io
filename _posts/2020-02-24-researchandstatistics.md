@@ -31,13 +31,12 @@ mathjax: "true"
   <a href="https://allisonbaileyr14.github.io/website/methane/"><img src="{{ site.url }}{{ site.baseurl }}/images/oxidation.jpg"></a>
   <p>Research and Presentation</p></td>
   </tr>
-  <tr>
     <tr>
-    <td>
+    <td width="50%" valign="top">
       <h3>Salmon Passage Project</h3>
   <a href="https://allisonbaileyr14.github.io/website/salmon/"><img src="{{ site.url }}{{ site.baseurl }}/images/fish.jpg"></a>
   <p>Salmon passage through the Bonneville Dam project </p></td>
-       <td>
+       <td width="50%" valign="top">
       <h3>Hawaii Land Use</h3>
   <a href="https://allisonbaileyr14.github.io/website/hawaii/"><img src="{{ site.url }}{{ site.baseurl }}/images/hawaii_thumb.jpg"></a>
   <p>Hawaii agriculture land use mapping project </p></td>
