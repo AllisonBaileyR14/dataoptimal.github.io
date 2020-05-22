@@ -2,10 +2,6 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Time-Series"
-    url: /time-series/
-  - title: "Mapping"
-    url: /mapping/
   - title: "Research and Statistics"
     url: /researchandstatistics/
   - title: "Lab Work"
