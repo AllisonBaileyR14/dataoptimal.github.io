@@ -28,7 +28,7 @@ mathjax: "true"
   <p>Multiple Linear Regression Analysis</p></td>
      <td width="50%" valign="top">
       <h3>Methane Oxidation Project</h3>
-  <a href="https://allisonbaileyr14.github.io/website/methane/"><img src="{{ site.url }}{{ site.baseurl }}/images/landfill.jpg"></a>
+  <a href="https://allisonbaileyr14.github.io/website/methane/"><img src="{{ site.url }}{{ site.baseurl }}/images/oxidation.jpg"></a>
   <p>Research and Presentation</p></td>
   </tr>
   <tr>
