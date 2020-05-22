@@ -34,7 +34,7 @@ mathjax: "true"
     <tr>
     <td width="50%" valign="top">
       <h3>Salmon Passage Project</h3>
-  <a href="https://allisonbaileyr14.github.io/website/salmon/"><img src="{{ site.url }}{{ site.baseurl }}/images/fish.jpg"></a>
+  <a href="https://allisonbaileyr14.github.io/website/salmon/"><img src="{{ site.url }}{{ site.baseurl }}/images/salmonjump.jpg"></a>
   <p>Salmon passage through the Bonneville Dam project </p></td>
        <td width="50%" valign="top">
       <h3>Hawaii Land Use</h3>
