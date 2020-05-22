@@ -37,6 +37,11 @@ mathjax: "true"
       <h3>Salmon Passage Project</h3>
   <a href="https://allisonbaileyr14.github.io/website/salmon/"><img src="{{ site.url }}{{ site.baseurl }}/images/fish.jpg"></a>
   <p>Salmon passage through the Bonneville Dam project </p></td>
+       <td>
+      <h3>Hawaii Land Use</h3>
+  <a href="https://allisonbaileyr14.github.io/website/hawaii/"><img src="{{ site.url }}{{ site.baseurl }}/images/hawaii_thumb.jpg"></a>
+  <p>Hawaii agriculture land use mapping project </p></td>
+  </tr>
   </table>
   
       
