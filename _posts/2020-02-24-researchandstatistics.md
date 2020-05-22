@@ -29,17 +29,17 @@ mathjax: "true"
      <td width="50%" valign="top">
       <h3>Methane Oxidation Project</h3>
   <a href="https://allisonbaileyr14.github.io/website/methane/"><img src="{{ site.url }}{{ site.baseurl }}/images/oxidation.jpg"></a>
-  <p>Research and Presentation</p></td>
+  <p>Research Paper</p></td>
   </tr>
     <tr>
     <td width="50%" valign="top">
       <h3>Salmon Passage Project</h3>
   <a href="https://allisonbaileyr14.github.io/website/salmon/"><img src="{{ site.url }}{{ site.baseurl }}/images/salmonjump.jpg"></a>
-  <p>Salmon passage through the Bonneville Dam project </p></td>
+  <p>Time-Series </p></td>
        <td width="50%" valign="top">
       <h3>Hawaii Land Use</h3>
   <a href="https://allisonbaileyr14.github.io/website/hawaii/"><img src="{{ site.url }}{{ site.baseurl }}/images/hawaii2.jpg"></a>
-  <p>Hawaii agriculture land use mapping project </p></td>
+  <p>Interactive Mapping </p></td>
   </tr>
   </table>
   
