@@ -10,4 +10,4 @@ mathjax: "true"
 
 ## Presentation Gallery
 
-<iframe width="100%" height="500px" src="../images/BioQuestBriefing.pdf" class="cool"></iframe>
+<iframe width="100%" height="500px" src="../images/BioQuest Briefing.pdf" class="cool"></iframe>
