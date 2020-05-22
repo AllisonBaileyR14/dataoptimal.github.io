@@ -6,10 +6,8 @@ main:
     url: /time-series/
   - title: "Mapping"
     url: /mapping/
-  - title: "Statistics"
+  - title: "Research and Statistics"
     url: /statistics/
-  - title: "Research"
-    url: /research/
   - title: "Lab Work"
     url: /labwork/
   - title: "Media"
