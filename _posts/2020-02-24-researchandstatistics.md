@@ -31,6 +31,12 @@ mathjax: "true"
   <a href="https://allisonbaileyr14.github.io/website/methane/"><img src="{{ site.url }}{{ site.baseurl }}/images/landfill.jpg"></a>
   <p>Research and Presentation</p></td>
   </tr>
+  <tr>
+    <tr>
+    <td>
+      <h3>Salmon Passage Project</h3>
+  <a href="https://allisonbaileyr14.github.io/website/salmon/"><img src="{{ site.url }}{{ site.baseurl }}/images/fish.jpg"></a>
+  <p>Salmon passage through the Bonneville Dam project </p></td>
   </table>
   
       
