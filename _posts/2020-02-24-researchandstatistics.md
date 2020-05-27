@@ -51,7 +51,6 @@ mathjax: "true"
   <a href="https://allisonbaileyr14.github.io/website/water/"><img src="{{ site.url }}{{ site.baseurl }}/images/water2.jpg"></a>
   <p>Research Paper </p></td>
   </tr>
-    </tr>
     <tr>
     <td width="50%" valign="top">
       <h3>Renewable Energy Policy Memo/h3>
