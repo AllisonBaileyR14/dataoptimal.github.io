@@ -46,6 +46,10 @@ mathjax: "true"
       <h3>Arsenic: BioGeoChemical Review</h3>
   <a href="https://allisonbaileyr14.github.io/website/arsenic/"><img src="{{ site.url }}{{ site.baseurl }}/images/arsenic.jpg"></a>
   <p>Research Paper </p></td>
+      <td width="50%" valign="top">
+      <h3>California Water Policy: Technical Brief</h3>
+  <a href="https://allisonbaileyr14.github.io/website/water/"><img src="{{ site.url }}{{ site.baseurl }}/images/arsenic.jpg"></a>
+  <p>Research Paper </p></td>
   </tr>
   </table>
   
