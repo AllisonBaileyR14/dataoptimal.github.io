@@ -49,12 +49,12 @@ mathjax: "true"
       <td width="50%" valign="top">
       <h3>California Water Policy: Technical Brief</h3>
   <a href="https://allisonbaileyr14.github.io/website/water/"><img src="{{ site.url }}{{ site.baseurl }}/images/water2.jpg"></a>
-  <p>Research Paper </p></td>
+  <p>Technical Brief </p></td>
   </tr>
     <tr>
     <td width="50%" valign="top">
       <h3>Renewable Energy Policy Memo</h3>
-  <a href="https://allisonbaileyr14.github.io/website/energy/"><img src="{{ site.url }}{{ site.baseurl }}/images/solar2.jpg"></a> </td>
+  <a href="https://allisonbaileyr14.github.io/website/energy/"><img src="{{ site.url }}{{ site.baseurl }}/images/solar2.jpg"></a>  <p>Policy Memo </p></td>
   </tr>
   </table>
   
