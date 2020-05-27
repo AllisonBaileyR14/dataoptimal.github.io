@@ -53,7 +53,7 @@ mathjax: "true"
   </tr>
     <tr>
     <td width="50%" valign="top">
-      <h3>Renewable Energy Policy Memo/h3>
+      <h3>Renewable Energy Policy Memo</h3>
   <a href="https://allisonbaileyr14.github.io/website/energy/"><img src="{{ site.url }}{{ site.baseurl }}/images/solar2.jpg"></a> </td>
   </tr>
   </table>
